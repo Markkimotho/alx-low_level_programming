@@ -1,10 +1,7 @@
 #include <stdio.h>
-/*
- * the main function has an integer return value
- * it accepts void arguments
- */
-int main(void)
+
+int main(void)/*main - entry point */
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return (0);/*return:0*/
 }
