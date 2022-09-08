@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point to the program
- * @void: no argument required
- * return: 0
+ * 
+ * return: always 0
  */
 int main(void)
 {
