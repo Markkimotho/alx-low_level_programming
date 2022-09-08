@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
- * the main function has an integer return value;returning 0
- * accepts void arguments
+/**
+ *main - entry point of all our code 
+ *Return:0
  */
 int main(void)
 {
