@@ -15,7 +15,11 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		n++;
+		if (n == 9)
+		{
+			break;
+		}
+
 	}
-	putchar('\n');
 	return (0);
 }

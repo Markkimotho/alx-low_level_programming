@@ -6,7 +6,7 @@
 int main(void)
 {
 	int n = 0;
-	char ch = 'a'
+	char ch = 'a';
 
 	while (n < 10)
 	{
