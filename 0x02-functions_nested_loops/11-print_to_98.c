@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
   *print_to_98 - prints all the numbers to 98 inclusive
   *@n: accepts integers as parameters
