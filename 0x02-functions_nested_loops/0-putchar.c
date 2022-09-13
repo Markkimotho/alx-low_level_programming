@@ -12,5 +12,6 @@ int main(void)
 	{
 		_putchar(pc[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
