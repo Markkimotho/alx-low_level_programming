@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   *_abs - finds an absolute integer value
-  *@int: accepts integer values
+  *@n: accepts integer values
   *Return: 0 for successful execution
   *
   */
@@ -13,12 +13,10 @@ int _abs(int n)
 	if (n < 0)
 	{
 		m = n * (-1);
-		_putchar(m);
-		return (0);
+		return (m);
 	}
 	else
 	{
-		_putchar(n);
-		return (0);
+		return (n);
 	}
 }
