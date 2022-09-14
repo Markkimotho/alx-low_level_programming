@@ -3,9 +3,8 @@
 /**
   *jack_bauer - prints every minute of the day from 00:00-23:59
   *
-  *Return: doesn't really matter 
+  *Return: doesn't really matter
   */
-
 void jack_bauer(void)
 {
 	int n;
@@ -25,15 +24,20 @@ void jack_bauer(void)
 			l = 0;
 			l++;
 		}
-		if (c > 5)
+		if (k > 5)
 		{
-			c = 0;
-			c++;
+			k = 0;
+			k++;
 		}
-		if (b > 9)
+		if (j > 9)
 		{
-			b = 0;
-			b++;
+			j = 0;
+			j++;
+		}
+		if (i > 5)
+		{
+			i = 0;
+			i++;
 		}
 
 	}
