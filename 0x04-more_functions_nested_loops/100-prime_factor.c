@@ -12,9 +12,9 @@ int main(void)
 	int i;
 	long n = 612852475143;
 
-	for (i = (int) sqrt(num); i > 2; i++)
+	for (i = (int) sqrt(n); i > 2; i++)
 	{
-		if (num % i == 0)
+		if (n % i == 0)
 		{
 			printf("%d\n", i);
 			break;
