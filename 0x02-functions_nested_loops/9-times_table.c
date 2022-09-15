@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
   *times_table - prints the times table of 9
@@ -19,19 +18,28 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			k = i * j;
-			printf("%i", k);
-
+			if (k > 9)
+			{
+				_putchar(k / 10 + '0');
+				_putchar(k % 10 + '0');
+			}
+			else if (j != 0)
+			{
+				_putchar(' ');
+				_putchar(k + '0');
+			}
+			else
+			{
+				_putchar(k + '0');
+			}
 			if (j != 9)
 			{
-				printf(", ");
-
-				if (k <= 9)
-				{
-					printf(" ");
-				}
+				_putchar(',');
+				_putchar(' ');
 			}
 
+
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
