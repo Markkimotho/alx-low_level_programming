@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-  *string_toupper -  
-  *@c: a string
+  *string_toupper - converts the string to all uppercase characters
+  *@c: string to be converted
   *Return: c
   *
   */
