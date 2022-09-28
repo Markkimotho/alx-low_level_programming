@@ -27,7 +27,7 @@ int find_prime(int n, int i, int lim)
 	if ((n % i == 0 && i <= lim) || n < 0 || n == 1)
 		return (0);
 	else if (n % i != 0 && i <= lim)
-		return (helper_prime(n, i + 1, lim));
+		return (find_prime(n, i + 1, lim));
 	else
 		return (1);
 }
