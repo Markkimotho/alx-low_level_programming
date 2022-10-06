@@ -5,23 +5,24 @@
   *@min: minimum value
   *@max: maximum value
   *
-  *Return : pointer to newly created array
+  *Return: pointer to newly created array
   *
   */
 
 int *array_range(int min, int max)
 {
-	int *p, i;
+	int *ptr;
+	int diff, i;
 
 	if (min > max)
 		return (NULL);
-
-	p = malloc((max - min + 1) * sizeof(*p));
-	if (p == NULL)
+	diff = max - min;
+	ptr = malloc((diff + 1) * sizeof(int));
+	if (ptr == NULL)
 		return (NULL);
-
-	for (i = 0; min <= max; i++, min++)
-		p[i] = min;
-
-	return (p);
+	for (i = 0; i <= diff; min++, i++)
+	{
+		ptr[i] = min;
+	}
+	return (ptr);
 }
