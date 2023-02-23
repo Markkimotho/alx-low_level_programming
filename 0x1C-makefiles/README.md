@@ -6,5 +6,7 @@ Requirements:
 
 * name of the executable: school
 * rules: all
-\tThe all rule builds your executable
+
+	The all rule builds your executable
+
 * variables: none
